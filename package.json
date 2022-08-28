@@ -1,0 +1,34 @@
+{
+  "name": "visual-testing",
+  "version": "1.0.0",
+  "description": "Cypress project for Visual Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fugazi/visual-testing.git"
+  },
+  "keywords": [
+    "cypress",
+    "visual",
+    "testing",
+    "qa",
+    "automation"
+  ],
+  "author": "Douglas Urrea Ocampo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fugazi/visual-testing/issues"
+  },
+  "homepage": "https://github.com/fugazi/visual-testing#readme",
+  "dependencies": {
+    "cypress": "^10.6.0"
+  },
+  "devDependencies": {
+    "@cypress-audit/lighthouse": "^1.3.1",
+    "cypress-audit": "^1.1.0",
+    "happo-cypress": "^3.0.1"
+  }
+}
