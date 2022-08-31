@@ -19,3 +19,9 @@ describe("home page", () => {
     cy.get("body").happoScreenshot();
   });
 });
+
+Migrar todo para trabajar con Percy.io
+https://docs.percy.io/docs/cypress
+
+Ejemplos
+https://github.com/percy/example-percy-cypress
