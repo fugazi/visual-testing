@@ -1,0 +1,32 @@
+{
+  "name": "visual-testing",
+  "version": "1.0.0",
+  "description": "Cypress project for Visual Testing with Percy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:visual": "npx cypress run --spec 'cypress/e2e/visual-test.cy.js'",
+    "test:perf": "cypress run --spec 'cypress/e2e/lighthouse.cy.js' --browser --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fugazi/visual-testing.git"
+  },
+  "keywords": [
+    "cypress",
+    "visual",
+    "testing",
+    "QA",
+    "automation"
+  ],
+  "author": "Douglas Urrea Ocampo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fugazi/visual-testing/issues"
+  },
+  "homepage": "https://github.com/fugazi/visual-testing#readme",
+  "dependencies": {
+    "cypress": "^10.10.0",
+    "cypress-audit": "^1.1.0"
+  }
+}
