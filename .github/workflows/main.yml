@@ -1,11 +1,23 @@
 name: Visual Testing
-on:
- push:
-   branches:
-     - main
+on: [push]
 jobs:
  Visual-Cypress-Test:
    runs-on: ubuntu-latest
    steps:
      - name: Checkout
        uses: actions/checkout@v3
+       
+     - name: Run Cypress Tests [Chrome]
+       uses: cypress-io/github-action@v5.0.2
+       with:
+         browser: chrome
+         
+     - name: Run Cypress Tests [Firefox]
+       uses: cypress-io/github-action@v5.0.2
+       with:
+         browser: firefox
+         
+     - name: Run Cypress Tests [Edge]
+       uses: cypress-io/github-action@v5.0.2
+       with:
+         browser: edge
