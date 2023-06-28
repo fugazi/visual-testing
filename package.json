@@ -23,7 +23,8 @@
     "url": "https://github.com/fugazi/visual-testing/issues"
   },
   "homepage": "https://github.com/fugazi/visual-testing#readme",
-  "dependencies": {
-    "cypress": "^12.12.0"
+  "devDependencies": {
+    "@cypress-audit/lighthouse": "^1.4.2",
+    "cypress": "^12.16.0"
   }
 }
