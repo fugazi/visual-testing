@@ -19,6 +19,11 @@ describe('Lighthouse Performance Test', () => {
     cy.lighthouse();
   });
 
+  it('MacBook - Home Page Performance Audit', () => {
+    cy.viewport('macbook-16');
+    cy.lighthouse();
+  });
+
   it('Lighthouse Performance audits using custom thresholds', () => {
     const customThresholds = {
       performance: 90,
