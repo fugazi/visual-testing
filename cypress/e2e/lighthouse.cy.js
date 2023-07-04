@@ -24,6 +24,11 @@ describe('Lighthouse Performance Test', () => {
     cy.lighthouse();
   });
 
+  it('iPad - Home Page Performance Audit', () => {
+    cy.viewport('ipad-mini');
+    cy.lighthouse();
+  });
+
   it('Lighthouse Performance audits using custom thresholds', () => {
     const customThresholds = {
       performance: 90,
