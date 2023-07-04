@@ -29,6 +29,11 @@ describe('Lighthouse Performance Test', () => {
     cy.lighthouse();
   });
 
+  it('Samsung - Home Page Performance Audit', () => {
+    cy.viewport('samsung-s10');
+    cy.lighthouse();
+  });
+
   it('Lighthouse Performance audits using custom thresholds', () => {
     const customThresholds = {
       performance: 90,
