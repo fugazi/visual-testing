@@ -34,6 +34,11 @@ describe('Lighthouse Performance Test', () => {
     cy.lighthouse();
   });
 
+  it('Landscape - Home Page Performance Audit', () => {
+    cy.viewport('iphone-xr', 'landscape');
+    cy.lighthouse();
+  });
+
   it('Lighthouse Performance audits using custom thresholds', () => {
     const customThresholds = {
       performance: 90,
