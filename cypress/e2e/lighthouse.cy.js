@@ -74,4 +74,27 @@ describe('Lighthouse Performance Test', () => {
       'total-blocking-time': 500,
     });
   });
+
+  it('Lighthouse Performance audits using custom values', () => {
+    cy.lighthouse({
+  chromeFlags: ['--headless', '--disable-gpu'],
+  onlyCategories: ['performance'],
+  emulatedFormFactor: 'desktop',
+  throttling: {
+    rttMs: 40,
+    throughputKbps: 10 * 1024,
+    cpuSlowdownMultiplier: 1,
+    requestLatencyMs: 0, // 0 means unset
+    downloadThroughputKbps: 0,
+    uploadThroughputKbps: 0,
+  },
+  screenEmulation: {
+    mobile: false,
+    width: 1350,
+    height: 940,
+    deviceScaleFactor: 1,
+    disabled: false,
+  },
+});
+});
 });
