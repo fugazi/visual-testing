@@ -14,6 +14,12 @@ describe('Lighthouse Performance Test', () => {
     cy.lighthouse();
   });
 
+  it('Mobile - About Page Performance Audit', () => {
+    cy.visit('/info');
+    cy.viewport('iphone-xr', 'landscape');
+    cy.lighthouse();
+  });
+
   it('Mobile - Home Page Performance Audit', () => {
     cy.viewport('iphone-6');
     cy.lighthouse();
