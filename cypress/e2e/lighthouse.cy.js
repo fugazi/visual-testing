@@ -62,4 +62,16 @@ describe('Lighthouse Performance Test', () => {
     };
     cy.lighthouse(customThresholds, desktopConfig);
   });
+
+  it('Lighthouse Performance audits using custom values', () => {
+    cy.lighthouse({
+      performance: 100,
+      accessibility: 100,
+      seo: 100,
+      'first-contentful-paint': 2000,
+      'largest-contentful-paint': 3000,
+      'cumulative-layout-shift': 0.1,
+      'total-blocking-time': 500,
+    });
+  });
 });
