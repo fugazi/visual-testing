@@ -1,5 +1,5 @@
 const { defineConfig } = require("cypress");
-const { lighthouse, prepareAudit } = require('@cypress-audit/lighthouse')
+const { lighthouse, prepareAudit } = require("@cypress-audit/lighthouse");
 
 module.exports = {
   e2e: {
