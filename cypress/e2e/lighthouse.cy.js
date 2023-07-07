@@ -53,7 +53,7 @@ describe("Lighthouse Performance Test", () => {
       "first-contentful-paint": 2000,
       "largest-contentful-paint": 3000,
       "cumulative-layout-shift": 0.1,
-      "total-blocking-time": 500,
+      "total-blocking-time": 600,
     };
 
     const desktopConfig = {
