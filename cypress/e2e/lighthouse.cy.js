@@ -92,7 +92,7 @@ describe("Lighthouse Performance Test", () => {
         mobile: false,
         width: 1350,
         height: 940,
-        deviceScaleFactor: 2,
+        deviceScaleFactor: 1,
         disabled: false,
       },
     });
