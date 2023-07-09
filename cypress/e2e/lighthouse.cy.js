@@ -20,6 +20,12 @@ describe("Lighthouse Performance Test", () => {
     cy.lighthouse();
   });
 
+  it("MacBook - About Page Performance Audit", () => {
+    cy.visit("/info");
+    cy.viewport("macbook-16", "landscape");
+    cy.lighthouse();
+  });
+
   it("Mobile - Home Page Performance Audit", () => {
     cy.viewport("iphone-6");
     cy.lighthouse();
