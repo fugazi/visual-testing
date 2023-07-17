@@ -26,5 +26,8 @@
   "devDependencies": {
     "@cypress-audit/lighthouse": "^1.4.2",
     "cypress": "^12.16.0"
+  },
+  "dependencies": {
+    "cypress-image-diff-js": "^1.26.0"
   }
 }
