@@ -9,7 +9,7 @@ addMatchImageSnapshotCommand({
   capture: "viewport", // capture the entire viewport
 });
 
-describe("Perform Visual Regression Test to validate Visual Testing", () => {
+describe("Perform Visual Regression Test to validate Visual Testing Regression", () => {
   it("Open DemoCart page should match the snapshot", () => {
     cy.visit("https://demo.opencart.com");
     cy.matchImageSnapshot();
