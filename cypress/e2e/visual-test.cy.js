@@ -11,7 +11,7 @@ addMatchImageSnapshotCommand({
 
 describe("Performing Visual Regression Test to validate Visual Testing", () => {
   it("Open DemoCart page should match the snapshot", () => {
-    cy.visit("https://demo.opencart.com");
+    cy.visit("https://www.monofonicos.net");
     cy.matchImageSnapshot();
   });
 });
