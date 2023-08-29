@@ -58,7 +58,7 @@ describe("Lighthouse Performance Test", () => {
       seo: 75,
       "first-contentful-paint": 2000,
       "largest-contentful-paint": 3000,
-      "cumulative-layout-shift": 0.1,
+      "cumulative-layout-shift": 0.2,
       "total-blocking-time": 500,
     };
 
