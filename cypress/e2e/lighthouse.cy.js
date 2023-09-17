@@ -55,7 +55,7 @@ describe("Lighthouse Performance Test", () => {
     const customThresholds = {
       performance: 90,
       accessibility: 90,
-      seo: 75,
+      seo: 85,
       "first-contentful-paint": 2000,
       "largest-contentful-paint": 3000,
       "cumulative-layout-shift": 0.2,
