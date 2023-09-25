@@ -1,5 +1,9 @@
 /// <reference types="Cypress" />
 
+/**
+ * The code snippet is a part of a test suite for performing Lighthouse performance audits on different pages of a website using Cypress.
+ *
+ */
 describe("Lighthouse Performance Test", () => {
   beforeEach(() => {
     cy.visit("/");
