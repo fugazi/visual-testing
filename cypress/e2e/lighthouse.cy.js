@@ -98,11 +98,15 @@ describe("Lighthouse Performance Test", () => {
         downloadThroughputKbps: 0,
         uploadThroughputKbps: 0,
       },
+      const screenWidth = 1350;
+      const screenHeight = 940;
+      const deviceScaleFactor = 1;
+
       screenEmulation: {
         mobile: false,
-        width: 1350,
-        height: 940,
-        deviceScaleFactor: 1,
+        width: screenWidth,
+        height: screenHeight,
+        deviceScaleFactor: deviceScaleFactor,
         disabled: false,
       },
     });
