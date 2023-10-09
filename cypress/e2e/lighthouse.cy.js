@@ -99,7 +99,7 @@ describe("Lighthouse Performance Test", () => {
         uploadThroughputKbps: 0,
       },
       screenEmulation: {
-        mobile: false,
+        mobile: true,
         width: 1350,
         height: 940,
         deviceScaleFactor: 1,
