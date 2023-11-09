@@ -17,7 +17,7 @@ addMatchImageSnapshotCommand({
   failureThreshold: 0.03,
   failureThresholdType: "percent",
   customDiffConfig: { threshold: 0.5 },
-  capture: "viewport",
+  capture: "fullPage",
 });
 
 describe("Performing Visual Regression Test to validate Visual Testing", () => {
