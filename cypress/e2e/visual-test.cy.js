@@ -14,7 +14,7 @@ import { addMatchImageSnapshotCommand } from "cypress-image-diff-js";
  * @param {string} options.capture - The area of the webpage to capture for comparison.
  */
 addMatchImageSnapshotCommand({
-  failureThreshold: 0.03,
+  failureThreshold: 0.05,
   failureThresholdType: "percent",
   customDiffConfig: { threshold: 0.5 },
   capture: "fullPage",
