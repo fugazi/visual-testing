@@ -91,7 +91,7 @@ describe("Lighthouse Performance Test", () => {
       onlyCategories: ["performance"],
       emulatedFormFactor: "desktop",
       throttling: {
-        rttMs: 70,
+        rttMs: 90,
         throughputKbps: 10 * 1024,
         cpuSlowdownMultiplier: 1,
         requestLatencyMs: 0, // 0 means unset
