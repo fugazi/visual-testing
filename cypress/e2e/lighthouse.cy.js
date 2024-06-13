@@ -55,6 +55,14 @@ describe("Lighthouse Performance Test", () => {
     cy.lighthouse();
   });
 
+  it("Performance and Accessibility Audit for Homepage", () => {
+    cy.lighthouse({
+      onlyCategories: ["performance", "accessibility"], // Focus on these categories
+      formFactor: "desktop", // Or "mobile" if you want to test on mobile
+      screenEmulation: { disabled: true }, // Disable screen emulation for accurate results
+    });
+  });
+
   it("Lighthouse Performance audits using custom thresholds", () => {
     const customThresholds = {
       performance: 98,
