@@ -28,10 +28,10 @@
     "cypress": "^13.1.0",
     "cypress-audit": "^1.0.0",
     "lighthouse": "^12.1.0",
-    "puppeteer-core": "^22.13.1",
+    "puppeteer-core": "^23.5.0",
     "ws": "^8.17.0"
   },
   "dependencies": {
-    "cypress-image-diff-js": "^1.26.0"
+    "cypress-image-diff-js": "^2.2.1"
   }
 }
