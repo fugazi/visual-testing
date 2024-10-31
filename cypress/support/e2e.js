@@ -22,3 +22,6 @@ import './commands'
 // Command to generate reports
 require('./commands')
 after(() => {cy.task('generateReport')});
+
+// Import cypress-image-diff-js commands
+import 'cypress-image-diff-js/commands'
