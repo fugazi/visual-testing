@@ -28,7 +28,7 @@
     "cypress": "^13.17.0",
     "cypress-audit": "^1.1.0",
     "lighthouse": "^12.3.0",
-    "puppeteer-core": "^24.0.0",
+    "puppeteer-core": "^24.1.0",
     "ws": "^8.18.0"
   },
   "dependencies": {
