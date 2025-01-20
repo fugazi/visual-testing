@@ -25,7 +25,7 @@
   "homepage": "https://github.com/fugazi/visual-testing#readme",
   "devDependencies": {
     "@cypress-audit/lighthouse": "^1.4.2",
-    "cypress": "^13.17.0",
+    "cypress": "^14.0.0",
     "cypress-audit": "^1.1.0",
     "lighthouse": "^12.3.0",
     "puppeteer-core": "^24.1.0",
@@ -33,6 +33,6 @@
   },
   "dependencies": {
     "cypress-image-diff-js": "^2.3.0",
-    "npm-check-updates": "^17.1.13"
+    "npm-check-updates": "^17.1.14"
   }
 }
