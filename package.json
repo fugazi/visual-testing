@@ -25,10 +25,10 @@
   "homepage": "https://github.com/fugazi/visual-testing#readme",
   "devDependencies": {
     "@cypress-audit/lighthouse": "^1.4.2",
-    "cypress": "^14.3.3",
+    "cypress": "^14.4.1",
     "cypress-audit": "^1.1.0",
-    "lighthouse": "^12.6.0",
-    "puppeteer-core": "^24.8.1",
+    "lighthouse": "^12.6.1",
+    "puppeteer-core": "^24.10.0",
     "ws": "^8.18.2"
   },
   "dependencies": {
