@@ -27,5 +27,8 @@
 import '@cypress-audit/lighthouse/commands';
 
 // cypress-image-diff-js configuration
-const compareSnapshotCommand = require('cypress-image-diff-js/dist/commands');
+const compareSnapshotCommand = require('cypress-image-diff-js/command');
 compareSnapshotCommand();
+
+const addMatchImageSnapshotCommand = require('cypress-image-diff-js/command');
+addMatchImageSnapshotCommand();
