@@ -15,6 +15,14 @@ module.exports = defineConfig({
 
       on("task", {
         lighthouse: lighthouse(),
+        log(message) {
+          console.log(message)
+          return null
+        },
+        table(message) {
+          console.table(message)
+          return null
+        }
       });
 
       return config;
